@@ -19,10 +19,11 @@ Within your React project directory, make sure you can understand the file struc
 
 For fetching from the API, we can use a particular method, fetch. If you go to Mozille Developer Network documenation and search up "fetch", it will give you examples and a solid understanding of why we use fetch. For creating each recipe, you can decide whether to use class or functional components. But you will need to create a main(App.js) component that renders 10 child "item" components. Try to follow my asynchronous demo, and how I hardcoded a specific number of objects, and then mapped them to child components using the JavaScript Array map method. The only difference is you won't be hardcoding those objects in this case, but fetching them from an API.
 
-Frequently add, commit, and push your code to the repository!
+Frequently add, commit, and push your code to submissions folder in the submissions branch!
+- do "git checkout submissions" to switch to the submissions branch
 - Any files you added or changed please do: git add <file_name>
 - Once you have added all the files you needed, then do: git commit -m "<Your commit message - make it as descriptive as possible"
-- Then finally push your commits to the remote repository(Here on GitHub): git push
+- Then finally push your commits to the remote repository's submission branch(Here on GitHub): git push
 
 Once you have finished your project, title the last commit with "Finished project - <Your name>" so we can identify who finished it.
   
