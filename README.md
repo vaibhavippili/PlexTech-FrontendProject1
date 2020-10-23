@@ -1,19 +1,13 @@
 # PlexTech Recipe Project
 
-Hey everyone! This project will require you to create a basic React app showing different recipes. Based off what you have learned about JSX, React, JavaScript, HTML, and CSS, try your best to show a user a view of 10 different recipes you choose. You will need to make a copy of this repository and clone it onto your system in order to push changes to it.
+Hey everyone! This project will require you to create a basic React app showing different recipes. Based off what you have learned about JSX, React, JavaScript, HTML, CSS, and APIs, try your best to show a user a view of 10 data objects you choose. You will need to make a copy of this repository and clone it onto your system in order to push changes to it.
 
 Basic requirements:
 - Needs to be a React application
-- There needs to be at least 10 recipes showing
-  - Layout of each Recipe
-      - Recipe name
-      - Recipe ingredient 1
-      - Recipe ingredient 2
-      - Recipe ingredient 3
-      - Recipe serving size
-      - Recipe location(Where it can be served at!)
-- Each Recipe should be its own div container and there should be a header or a paragraph tag for each recipe attribute.
-
+- There needs to be at least 10 items you fetch from your API endpoint rendered
+  - Layout of each item(depends on what you fetch from the API)
+      - Item name
+      - Item Data
 
 Instructions:
 
@@ -23,7 +17,7 @@ Then, making sure you are in the repository, you would type in npm init create-r
 
 Within your React project directory, make sure you can understand the file structure that we mentioned and talked about during lecture! Understanding it will help greatly and will spare a lot of confusion. Reference the lesson slides if necessary. 
 
-For creating each recipe, you can decide whether to use class or functional components. But you will need to create a main(App.js) component that renders 10 child Recipe components. Try to follow my asynchronous demo, and how I hardcoded a specific number of objects, and then mapped them to child components using the JavaScript Array map method. Try to use that in your project!
+For fetching from the API, we can use a particular method, fetch. If you go to Mozille Developer Network documenation and search up "fetch", it will give you examples and a solid understanding of why we use fetch. For creating each recipe, you can decide whether to use class or functional components. But you will need to create a main(App.js) component that renders 10 child "item" components. Try to follow my asynchronous demo, and how I hardcoded a specific number of objects, and then mapped them to child components using the JavaScript Array map method. The only difference is you won't be hardcoding those objects in this case, but fetching them from an API.
 
 Frequently add, commit, and push your code to the repository!
 - Any files you added or changed please do: git add <file_name>
